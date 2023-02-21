@@ -4,6 +4,10 @@ import "fmt"
 
 func GradeNilai() string {
 	var N int
+	var nama string
+	
+	fmt.Print("Masukan nama siswa : ")
+	fmt.Scan(&nama)
 	fmt.Print("Masukan nilai : ")
 	fmt.Scan(&N)
 
